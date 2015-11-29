@@ -1,0 +1,1 @@
+A dummy pacakge to be run by the npm-run-shell test script.

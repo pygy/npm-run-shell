@@ -1,0 +1,26 @@
+{
+  "name": "npm-run-shell",
+  "version": "0.0.1",
+  "description": "A 'npm run-script' command to run the current shell in the npm scripts environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "shell": "npm-run-shell"
+  },
+  "repository": {
+    "type": "git",
+    "url": "soon"
+  },
+  "bin": {
+    "npm-run-shell":"./index.js"
+  },
+  "keywords": [
+    "npm-scripts",
+    "env",
+    "environment",
+    "npm",
+    "shell"
+  ],
+  "author": "Pierre-Yves Gérardy",
+  "license": "MIT"
+}

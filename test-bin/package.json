@@ -1,0 +1,26 @@
+{
+  "name": "npm-run-shell-test-bin",
+  "version": "0.0.2",
+  "description": "A dummy pacakge to be run by the npm-run-shell test script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "foo":"./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "soon"
+  },
+  "keywords": [
+    "npm-run-shell",
+    "npm-scripts",
+    "env",
+    "environment",
+    "npm",
+    "shell"
+  ],
+  "author": "Pierre-Yves Gérardy",
+  "license": "MIT"
+}

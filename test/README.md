@@ -1,0 +1,1 @@
+A dummy pacakge to test npm-run-shell. Run `npm run shell`.
