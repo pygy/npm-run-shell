@@ -18,4 +18,8 @@ Then add this to the in the `"scripts"` sections of your package.json:
 }
 ```
 
-Now, from the root of the project, call `npm run shell`.
+Now, from the root of the project, launch this:
+
+```Shell
+$ npm run shell
+```
