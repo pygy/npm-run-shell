@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "soon"
+    "url": "https://github.com/pygy/npm-run-shell.git"
   },
   "bin": {
     "npm-run-shell": "./index.js"
