@@ -3,13 +3,14 @@ var child_process = require('child_process');
 var os = require('os');
 
 
-var options, exitKeyCombo
+var options, exitKeyCombo;
+var cwd = process.cwd();
 if (os.platform() === 'win32') {
-    options = [];
-    exitKeyCombo = '^Z'
+    options = ['-k "' + cwd + '"'];
+    exitKeyCombo = '^Z';
 } else {
     options = ['-i'];
-    exitKeyCombo = '^D'
+    exitKeyCombo = '^D';
 }
 
 if (process.argv[2] === 'npmenv'){
@@ -19,7 +20,9 @@ if (process.argv[2] === 'npmenv'){
     console.log("Opening a subshell with access to the binaries of local npm packages.")
 }
 
-console.log("Type 'exit' or ^D when done.")
+process.env.NPM_RUN_SHELL = "true"
+
+console.log("Type 'exit' or " + exitKeyCombo + " when done.")
 console.log("")
 
 var res = child_process.spawnSync(
