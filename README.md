@@ -2,13 +2,13 @@
 
 `/!\` I'm afraid this approach is a dead end, for [various reasons](#known-issues). Check out [`npm-run`](https://www.npmjs.com/package/npm-run) instead. `/!\`
 
-##npm-run-shell
+## npm-run-shell
 
 Runs a shell in the `npm run-script` environment.
 
 It adds the binaries of local npm packages in the command path, and optionally passes the `npm_*` environment variables to the child shell.
 
-###Installation:
+### Installation:
 
 in the target package:
 
@@ -28,7 +28,7 @@ Then add this to the in the `"scripts"` sections of your package.json:
 }
 ```
 
-###Usage:
+### Usage:
 
 ```
     npm run shell [npmenv]
