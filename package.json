@@ -1,6 +1,6 @@
 {
   "name": "npm-run-shell",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A 'npm run-script' command to run the current shell in the npm scripts environment.",
   "main": "index.js",
   "scripts": {
