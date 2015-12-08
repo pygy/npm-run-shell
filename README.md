@@ -1,4 +1,6 @@
-`/!\` WIP, and only half functional at this point. See the known issues section. `/!\`
+
+
+`/!\` I'm afraid this approach is a dead end, for [various reasons](#known-issues). Check out [`npm-run`](https://www.npmjs.com/package/npm-run) instead. `/!\`
 
 ##npm-run-shell
 
